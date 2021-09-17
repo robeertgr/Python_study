@@ -2,8 +2,8 @@ from ibm_watson import SpeechToTextV1
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 from pandas import json_normalize
 
-url_s2t = "https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/4ba23cc7-a027-461b-9614-de4781b665d5"
-iam_apikey_s2t = "_LJ0JQ0PmjeoDn83oh-06wFWvvUqV-IIFR4UXqn-DhA1"
+url_s2t = "insert url here"
+iam_apikey_s2t = "insert api key here"
 
 authenticator = IAMAuthenticator(iam_apikey_s2t)
 s2t = SpeechToTextV1(authenticator=authenticator)
